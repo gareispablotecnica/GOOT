@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.encabezado {
+    height: 85px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.encabezado img {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+}
+
+.menu a {
+    margin-right: 10px;
+    text-decoration: none;
+    font-size: 19px;
+    color: black;
+    transition: all 1s ease-in-out;
+}
+
+.botona {
+    padding-bottom: 5px;
+}
+
+.botona:hover {
+    border-bottom: 5px solid #810B38;
+}
+
+.botonc {
+    padding: 10px;
+    background: #810B38;
+    border-radius: 5px;
+    color: whitesmoke !important;
+}
+
+.intermedio img {
+    height: 85vh;
+    width: 100%;
+}
+
+
+
+.carrusel {
+    margin: 10px auto;
+    width: 100%;
+    overflow-x: hidden;
+    display: flex;
+    gap: 5px;
+}
+
+
+.borda {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    flex-shrink: 0;
+    min-width: 100%;
+    animation: Sorli 20s infinite linear;
+}
+
+.borda::-webkit-scrollbar {
+    display: none;
+}
+
+
+.borda img {
+    width: 250px;
+    object-fit: cover;
+    height: 250px;
+}
+
+@keyframes Sorli {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(calc(-100% - 20px));
+    }
+}
