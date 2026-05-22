@@ -1,16 +1,12 @@
 # GOOT
 
-Escriba aquí una breve descripción del propósito del proyecto.
-
----
-
+Proyecto Aulico de Ropa Urbana
 ## Tecnologías Utilizadas
 
 * HTML5
 * CSS3
 * JavaScript
 
----
 
 ## Estructura del Proyecto
 
@@ -24,8 +20,6 @@ Escriba aquí una breve descripción del propósito del proyecto.
   * Intermedio/
   * Logo.jpg
   * index.html
-
----
 
 
 ## Autor
