@@ -19,7 +19,7 @@
     * img/
     * Intermedio/
     * Logo.jpg
-  * index.html
+* index.html
 
 ## Autor
 
