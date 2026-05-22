@@ -1,6 +1,6 @@
 # GOOT
+  Proyecto Aulico de Ropa Urbana
 
-Proyecto Aulico de Ropa Urbana
 ## Tecnologías Utilizadas
 
 * HTML5
@@ -11,16 +11,15 @@ Proyecto Aulico de Ropa Urbana
 ## Estructura del Proyecto
 
 * css/
-  * style.css
+    * style.css
 * scripts/
-  * db.js
-  * main.js
+    * db.js
+    * main.js
 * src/
-  * img/
-  * Intermedio/
-  * Logo.jpg
+    * img/
+    * Intermedio/
+    * Logo.jpg
   * index.html
-
 
 ## Autor
 
